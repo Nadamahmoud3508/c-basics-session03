@@ -1,0 +1,15 @@
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\obj\Debug\net10.0\Assignment2s03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\obj\Debug\net10.0\Assignment2s03.AssemblyInfoInputs.cache
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\obj\Debug\net10.0\Assignment2s03.AssemblyInfo.cs
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\obj\Debug\net10.0\Assignment2s03.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\bin\Debug\net10.0\Assignment2s03.exe
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\bin\Debug\net10.0\Assignment2s03.deps.json
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\bin\Debug\net10.0\Assignment2s03.runtimeconfig.json
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\bin\Debug\net10.0\Assignment2s03.dll
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\bin\Debug\net10.0\Assignment2s03.pdb
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\obj\Debug\net10.0\Assignment2s03.dll
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\obj\Debug\net10.0\refint\Assignment2s03.dll
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\obj\Debug\net10.0\Assignment2s03.pdb
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\obj\Debug\net10.0\Assignment2s03.genruntimeconfig.cache
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\obj\Debug\net10.0\ref\Assignment2s03.dll
+C:\Users\dell\source\repos\Assignment2s03\Assignment2s03\obj\Debug\net10.0\Assignme.A04DC81D.Up2Date
