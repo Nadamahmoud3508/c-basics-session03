@@ -1,52 +1,141 @@
-﻿using System.Text;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace string_part
+﻿namespace Assignment2s03
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             #region 1
-            string title = "clean code";
-            string UpperTitle= title.ToUpper();
-            Console.WriteLine(title);
-            Console.WriteLine(UpperTitle);
+            int pages = 464;
+
+            if (pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
             #endregion
 
             #region 2
-            string s1 = "Clean Code"; 
-            string s2 = "Clean Code";
-            Console.WriteLine(object.ReferenceEquals(s1, s2));
+             bool isAvailable = true;
+            if(pages>300 && isAvailable == true)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
+            else
+            {
+                Console.WriteLine("You cannot borrow this book");
+            }
             #endregion
 
             #region 3
-            StringBuilder sb = new StringBuilder();
-            sb.Append("Book List");
-            sb.Append(" - Updated");
-            Console.WriteLine(sb);
+            string title = "Refactoring";
+            switch (title)
+            {
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+                case "Clean Code":
+                    Console.WriteLine("Great Choice!");
+                    break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+
+            
+
+            }
             #endregion
 
             #region 4
-            sb.Replace("Book List", "Library");
-            Console.WriteLine(sb);
+            string sizeLabel=pages>300 ? "Long Book" : "Short Book";
+            Console.WriteLine(sizeLabel);
             #endregion
 
             #region 5
-            int pages = 464;
-            Console.WriteLine("using + operator");  
-            Console.WriteLine("Book: " + title + ", Pages: " + pages);
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for(int i=0; i<books.Length;i++)
+            {
+                Console.WriteLine($"book {i+1}:{books[i]}");
+            }
             #endregion
 
             #region 6
-            Console.WriteLine("using $ operator");
-            Console.WriteLine($"Book: {title}, Pages: {pages}");
+            Console.WriteLine("Using while loop");
+            int count = 0;
+            while (count < 3)
+            {
+                Console.WriteLine($"book {count + 1}: {books[count]}");
+                count++;
+            }
             #endregion
 
             #region 7
-            Console.WriteLine("using string.Format");
-            Console.WriteLine(string.Format("Book: {0}, Pages: {1}", title, pages));
+            int cnt = 0;
+            do
+
+            {
+                Console.WriteLine("Checking book...");
+                cnt++;
+            }while (cnt < 3);
             #endregion
+
+            #region 8
+            Console.WriteLine("Using foreach loop");
+            foreach (string book in books)
+            {
+                Console.WriteLine($"Book: {book}");
+            }
+            #endregion
+
+            #region 9
+            for (int i = 0; i < books.Length; i++)
+            {
+                if(books[i] == "Refactoring")
+                { 
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine($"book {i + 1}:{books[i]}");
+                }
+                
+            }
+            #endregion
+
+            #region 10
+            for (int i = 0; i < books.Length; i++)
+            {
+                if (books[i] == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+                else
+                {
+                    Console.WriteLine($"book {i + 1}:{books[i]}");
+                }
+            }
+            #endregion
+
+            #region 11
+
+            void PrintFirstBook()
+            {
+                if (books.Length == 0)
+                {
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine($"First book: {books[0]}");
+                }
+                
+            }
+            PrintFirstBook();
+            #endregion
+
+
         }
     }
 }
